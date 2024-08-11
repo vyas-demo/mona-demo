@@ -11,8 +11,6 @@ updates:
     # Raise all npm pull requests with custom labels
     labels:
       - "dependabot-version-update"
-    reviewers:
-      - "dependabot-reviewers"
     commit-message: 
       prefix: "DEPENDABOT VERSION UPDATES"
       
