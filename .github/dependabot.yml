@@ -1,0 +1,18 @@
+# `dependabot.yml` file with
+# customized npm configuration
+
+version: 2
+updates:
+  # Keep npm dependencies up to date
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+    # Raise all npm pull requests with custom labels
+    labels:
+      - "dependabot-version-update"
+    reviewers:
+      - "dependabot-reviewers"
+    commit-message: 
+      prefix: "DEPENDABOT VERSION UPDATES"
+      
